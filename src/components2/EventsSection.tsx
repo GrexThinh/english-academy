@@ -13,7 +13,7 @@ const EventsSection = () => {
       description: 'Interactive workshop focused on improving speaking confidence and fluency.',
       date: '28 Nov',
       time: '10:00am - 12:00pm',
-      location: 'New York',
+      location: 'Bien Hoa City',
       image: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&q=80'
     },
     {
@@ -21,7 +21,7 @@ const EventsSection = () => {
       description: 'Learn effective strategies and tips for achieving high IELTS scores.',
       date: '28 Nov',
       time: '2:00pm - 4:00pm',
-      location: 'New York',
+      location: 'Bien Hoa City',
       image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80'
     },
     {
@@ -29,7 +29,7 @@ const EventsSection = () => {
       description: 'Practice English while learning about different cultures and traditions.',
       date: '29 Nov',
       time: '10:00am - 12:00pm',
-      location: 'New York',
+      location: 'Bien Hoa City',
       image: '/img/program-2.jpg'
     }
   ];

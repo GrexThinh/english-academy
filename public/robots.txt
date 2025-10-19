@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+Disallow: /api
+
+# Host
+Host: https://anhnguvictoria.vercel.app/
+
+# Sitemaps
+Sitemap: https://anhnguvictoria.vercel.app/sitemap.xml
