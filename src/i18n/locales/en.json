@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "programs": "Programs",
+    "events": "Events",
+    "contact": "Contact",
+    "branches": "Branches"
+  },
+  "hero": {
+    "subtitle": "We Care Your Future",
+    "title": "The Best English Learning Experience For Your Success",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "We Learn Smart Way To Build Bright Future For Your Children",
+    "description": "Victoria Academy is dedicated to providing exceptional English education with innovative teaching methods. Our experienced instructors create an engaging learning environment that helps students achieve their language goals.",
+    "feature1": "Interactive Learning",
+    "feature2": "Native Teachers",
+    "feature3": "Modern Curriculum",
+    "feature4": "Certified Programs",
+    "feature5": "Small Class Sizes",
+    "feature6": "Flexible Schedule",
+    "moreDetails": "More Details"
+  },
+  "services": {
+    "label": "What We Do",
+    "title": "Thanks To Get Started With Our Academy",
+    "service1Title": "Speaking & Conversation",
+    "service1Desc": "Master English speaking skills through interactive conversations and real-world practice scenarios.",
+    "service2Title": "Grammar & Writing",
+    "service2Desc": "Build strong foundation in English grammar and develop professional writing abilities.",
+    "service3Title": "IELTS Preparation",
+    "service3Desc": "Comprehensive IELTS training with expert guidance to achieve your target score.",
+    "service4Title": "Business English",
+    "service4Desc": "Professional English skills for workplace communication and career advancement.",
+    "readMore": "Read More"
+  },
+  "programs": {
+    "label": "Our Programs",
+    "title": "We Offer An Exclusive Program For Students",
+    "viewAll": "View All Programs"
+  },
+  "events": {
+    "label": "Our Events",
+    "title": "Our Upcoming Events"
+  },
+  "blog": {
+    "label": "Latest News & Blog",
+    "title": "Read Our Latest News & Blog"
+  },
+  "team": {
+    "label": "Our Team",
+    "title": "Meet With Our Expert Teachers"
+  },
+  "testimonials": {
+    "label": "Our Testimonials",
+    "title": "Students Say About Us"
+  },
+  "footer": {
+    "description": "Victoria Academy provides world-class English education with experienced native teachers and modern teaching methods.",
+    "newsletter": "Newsletter",
+    "location": "Location",
+    "ourGallery": "Our Gallery"
+  },
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "address": "123 Education Street, District 1, Ho Chi Minh City"
+  }
+}

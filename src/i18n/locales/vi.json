@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "programs": "Chương trình học",
+    "events": "Sự kiện",
+    "contact": "Liên hệ",
+    "branches": "Hệ thống trung tâm"
+  },
+  "hero": {
+    "subtitle": "Chúng Tôi Quan Tâm Tương Lai Của Bạn",
+    "title": "Trải Nghiệm Học Tiếng Anh Tốt Nhất Cho Sự Thành Công Của Bạn",
+    "getStarted": "Bắt Đầu",
+    "learnMore": "Tìm Hiểu Thêm"
+  },
+  "about": {
+    "brand": "Trung tâm ngoại ngữ học viện giáo dục Victoria",
+    "label": "Về Chúng Tôi",
+    "title": "Chúng Tôi Học Theo Cách Thông Minh Để Xây Dựng Tương Lai Tươi Sáng",
+    "description": "Victoria Academy cam kết cung cấp giáo dục tiếng Anh xuất sắc với phương pháp giảng dạy sáng tạo. Đội ngũ giảng viên giàu kinh nghiệm tạo ra môi trường học tập hấp dẫn giúp học viên đạt được mục tiêu ngôn ngữ.",
+    "feature1": "Học Tập Tương Tác",
+    "feature2": "Giáo Viên Bản Ngữ",
+    "feature3": "Chương Trình Hiện Đại",
+    "feature4": "Khóa Học Chứng Nhận",
+    "feature5": "Lớp Học Nhỏ",
+    "feature6": "Lịch Học Linh Hoạt",
+    "moreDetails": "Chi Tiết Thêm"
+  },
+  "services": {
+    "label": "Chúng Tôi Làm Gì",
+    "title": "Cảm Ơn Bạn Đã Bắt Đầu Với Học Viện Của Chúng Tôi",
+    "service1Title": "Nói & Giao Tiếp",
+    "service1Desc": "Thành thạo kỹ năng nói tiếng Anh thông qua các cuộc hội thoại tương tác và thực hành tình huống thực tế.",
+    "service2Title": "Ngữ Pháp & Viết",
+    "service2Desc": "Xây dựng nền tảng vững chắc về ngữ pháp tiếng Anh và phát triển khả năng viết chuyên nghiệp.",
+    "service3Title": "Luyện Thi IELTS",
+    "service3Desc": "Khóa đào tạo IELTS toàn diện với hướng dẫn chuyên gia để đạt điểm mục tiêu.",
+    "service4Title": "Tiếng Anh Thương Mại",
+    "service4Desc": "Kỹ năng tiếng Anh chuyên nghiệp cho giao tiếp nơi làm việc và thăng tiến sự nghiệp.",
+    "readMore": "Đọc Thêm"
+  },
+  "programs": {
+    "label": "Chương Trình Của Chúng Tôi",
+    "title": "Chúng Tôi Cung Cấp Chương Trình Độc Quyền Cho Học Viên",
+    "viewAll": "Xem Tất Cả Chương Trình"
+  },
+  "events": {
+    "label": "Sự Kiện Của Chúng Tôi",
+    "title": "Sự Kiện Sắp Tới"
+  },
+  "blog": {
+    "label": "Tin Tức & Blog Mới Nhất",
+    "title": "Đọc Tin Tức & Blog Mới Nhất"
+  },
+  "team": {
+    "label": "Đội Ngũ Của Chúng Tôi",
+    "title": "Gặp Gỡ Giáo Viên Chuyên Nghiệp"
+  },
+  "testimonials": {
+    "label": "Nhận Xét Của Học Viên",
+    "title": "Học Viên Nói Về Chúng Tôi"
+  },
+  "footer": {
+    "description": "Victoria Academy cung cấp giáo dục tiếng Anh đẳng cấp thế giới với giáo viên bản ngữ giàu kinh nghiệm và phương pháp giảng dạy hiện đại.",
+    "newsletter": "Bản Tin",
+    "location": "Địa Điểm",
+    "ourGallery": "Thư Viện Ảnh"
+  },
+  "contact": {
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "address": "L4/24, KDC Phú Gia 2, Phường Trảng Dài, tỉnh Đồng Nai"
+  }
+}
