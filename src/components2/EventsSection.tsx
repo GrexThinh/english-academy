@@ -36,11 +36,10 @@ const EventsSection = () => {
 
   return (
     <section id="events" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-victoria-red font-semibold text-lg mb-2">{t('events.label')}</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground">
-            {t('events.title')}
+            {t("events.title")}
           </h2>
         </div>
 
@@ -58,8 +57,10 @@ const EventsSection = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 bg-victoria-red text-white px-4 py-3 rounded-2xl text-center shadow-lg">
-                  <p className="text-2xl font-bold">{event.date.split(' ')[0]}</p>
-                  <p className="text-sm">{event.date.split(' ')[1]}</p>
+                  <p className="text-2xl font-bold">
+                    {event.date.split(" ")[0]}
+                  </p>
+                  <p className="text-sm">{event.date.split(" ")[1]}</p>
                 </div>
               </div>
 

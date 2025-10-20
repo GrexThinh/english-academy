@@ -1,41 +1,43 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { Star, Quote } from 'lucide-react';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { Star, Quote } from "lucide-react";
 
 const TestimonialsSection = () => {
   const { t } = useTranslation();
 
   const testimonials = [
     {
-      name: 'Nguyen Van A',
-      role: 'Business Professional',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80',
+      name: "Nguyen Van A",
+      role: "Business Professional",
+      image:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
       rating: 5,
-      text: 'Victoria Academy transformed my English skills completely. The teachers are professional and the learning environment is excellent. I achieved my IELTS target score!'
+      text: "Victoria Academy transformed my English skills completely. The teachers are professional and the learning environment is excellent. I achieved my IELTS target score!",
     },
     {
-      name: 'Tran Thi B',
-      role: 'University Student',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80',
+      name: "Tran Thi B",
+      role: "University Student",
+      image:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
       rating: 5,
-      text: 'The best English academy in the city! Small class sizes and personalized attention helped me improve my speaking confidence dramatically.'
+      text: "The best English academy in the city! Small class sizes and personalized attention helped me improve my speaking confidence dramatically.",
     },
     {
-      name: 'Le Van C',
-      role: 'Marketing Manager',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80',
+      name: "Le Van C",
+      role: "Marketing Manager",
+      image:
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
       rating: 5,
-      text: 'Professional teaching methods and modern curriculum. Victoria Academy helped me advance my career with better English communication skills.'
-    }
+      text: "Professional teaching methods and modern curriculum. Victoria Academy helped me advance my career with better English communication skills.",
+    },
   ];
 
   return (
     <section className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-victoria-red font-semibold text-lg mb-2">{t('testimonials.label')}</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground">
-            {t('testimonials.title')}
+            Nhận xét của phụ huynh
           </h2>
         </div>
 
@@ -63,15 +65,23 @@ const TestimonialsSection = () => {
                   <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-victoria-gold rounded-full border-2 border-background" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-foreground">{testimonial.name}</h4>
-                  <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+                  <h4 className="font-bold text-foreground">
+                    {testimonial.name}
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    {testimonial.role}
+                  </p>
                 </div>
               </div>
 
               {/* Rating */}
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} size={16} className="text-victoria-gold fill-victoria-gold" />
+                  <Star
+                    key={i}
+                    size={16}
+                    className="text-victoria-gold fill-victoria-gold"
+                  />
                 ))}
               </div>
 

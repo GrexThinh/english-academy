@@ -89,6 +89,7 @@ const HeroSection = () => {
                 relative group overflow-hidden
                 rounded-[30px_12px_30px_12px]
                 bg-victoria-red text-victoria-gold
+                brightness-[1.25]
                 font-bold text-lg
                 h-14 md:h-16 px-8
                 shadow-[0_12px_24px_rgba(232,62,105,0.20)]

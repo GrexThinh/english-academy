@@ -51,13 +51,10 @@ const TestimonialsCarousel = () => {
 
   return (
     <section className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-victoria-red font-semibold text-lg mb-2">
-            {t("testimonials.label")}
-          </p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground">
-            {t("testimonials.title")}
+            Nhận xét của phụ huynh
           </h2>
         </div>
 

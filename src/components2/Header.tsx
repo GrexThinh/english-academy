@@ -84,7 +84,7 @@ const Header = () => {
                 <span>info@victoria-academy.com</span>
               </a>
             </div>
-            <div className="flex items-center gap-3 text-victoria-gold font-bold text-sm underline cursor-pointer">
+            <div className="flex items-center gap-3 text-victoria-gold font-bold text-sm underline cursor-pointer brightness-[1.25]">
               <div>Facebook</div> |<div>Zalo</div> |<div>Vị trí</div>
               <Button
                 variant="ghost"
