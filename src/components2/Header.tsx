@@ -62,13 +62,47 @@ const Header = () => {
     { key: "contact", path: "#contact" },
   ];
 
+  const [showTopBar, setShowTopBar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Scrolling down → hide top bar
+        setShowTopBar(false);
+      } else {
+        // Scrolling up → show top bar
+        setShowTopBar(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       {/* ===== Top Bar ===== */}
-      <div className="bg-victoria-red text-white rounded-bl-[40px] rounded-tr-[40px] max-w-7xl px-4 mx-auto">
+      <div
+        className={`bg-victoria-red text-white rounded-bl-[40px] rounded-tr-[40px] max-w-7xl px-4 mx-auto transition-all duration-500 ${
+          showTopBar
+            ? "opacity-100 translate-y-0 h-[50px]"
+            : "opacity-0 -translate-y-full h-0 overflow-hidden"
+        }`}
+      >
         <div className="container mx-auto px-4 py-2">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm">
             <div className="flex flex-wrap items-center gap-4">
+              <Image
+                src={"/logos/1.png"}
+                alt={"victoria-logo"}
+                width={50}
+                height={50}
+              />
               <a
                 href="tel:+84123456789"
                 className="flex items-center gap-2 hover:text-victoria-gold transition-colors"

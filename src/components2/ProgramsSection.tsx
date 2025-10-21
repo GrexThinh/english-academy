@@ -103,7 +103,7 @@ const ProgramsSection = () => {
               key={index}
               variants={cardVariants}
               transition={{ duration: 0.5 }}
-              className="relative rounded-xl overflow-hidden shadow-lg ring-1 ring-black/5 cursor-pointer "
+              className="group relative rounded-xl overflow-hidden shadow-lg ring-1 ring-black/5 cursor-pointer"
             >
               <div className="relative w-full aspect-[4/4.5] hover:scale-110 transition-all duration-500">
                 <Image
@@ -115,11 +115,11 @@ const ProgramsSection = () => {
                 />
               </div>
 
-              <div className="absolute bottom-0 left-0 w-full h-[28%]">
+              <div className="absolute bottom-0 left-0 w-full h-[28%] group-hover:h-full">
                 <div className="relative w-full h-full">
-                  <div className="absolute inset-0 bg-victoria-red [clip-path:ellipse(120%_100%_at_50%_100%)]" />
+                  <div className="absolute inset-0 bg-victoria-red [clip-path:ellipse(120%_100%_at_50%_100%)] group-hover:[clip-path:unset]" />
 
-                  <div className="relative z-10 px-5 pt-8 pb-4">
+                  <div className="relative z-10 px-5 pt-8 pb-4 group-hover:hidden">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-[#f6c900cb] inline-flex items-center rounded-2xl px-4 py-2 text-[12px] font-extrabold uppercase tracking-wide bg-white/10 shadow-sm">
                         {program.subtitle}
@@ -149,6 +149,39 @@ const ProgramsSection = () => {
                     </h3>
                   </div>
                 </div>
+              </div>
+
+              {/* Hover overlay (hidden until hover) */}
+              <div
+                className="
+    absolute inset-0 bg-victoria-red/95
+    opacity-0
+    transition-all duration-500
+    group-hover:opacity-100
+    flex flex-col items-center justify-center text-center
+    px-6
+  "
+              >
+                <h3 className="text-2xl font-extrabold text-[#f6c900cb] mb-4">
+                  {program.title}
+                </h3>
+                <p className="text-white/90 mb-6">
+                  Fun and engaging English lessons designed for young learners.
+                </p>
+                <button
+                  type="button"
+                  className="
+      inline-flex items-center gap-2
+      rounded-full
+      bg-gradient-to-r from-[#f9d84b] to-[#f6c700]
+      text-[#7a0c10]
+      px-5 py-3 font-semibold text-sm
+      shadow-[0_4px_15px_rgba(246,199,0,0.45)]
+      transition-transform duration-200 active:scale-95
+    "
+                >
+                  Khám phá <Search size={20} />
+                </button>
               </div>
             </motion.article>
           ))}

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
+import { Star, Quote } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -17,33 +17,25 @@ const TestimonialsCarousel = () => {
   const testimonials = [
     {
       name: "Mai Phương Lan",
-      role: "Business Professional",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      role: "",
       rating: 5,
       text: "Học viện Victoria đã thay đổi hoàn toàn khả năng tiếng Anh của tôi. Giáo viên rất chuyên nghiệp và môi trường học tập tuyệt vời. Tôi đã đạt được điểm IELTS mục tiêu!",
     },
     {
       name: "Trần Nguyễn Ngọc Hân",
-      role: "University Student",
-      image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+      role: "Học Sinh",
       rating: 5,
       text: "Học viện tiếng Anh tốt nhất thành phố! Lớp học nhỏ và sự quan tâm chu đáo đã giúp tôi cải thiện đáng kể sự tự tin khi nói.",
     },
     {
       name: "Lê Hoàng Minh",
-      role: "Marketing Manager",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+      role: "Học Sinh",
       rating: 5,
       text: "Phương pháp giảng dạy chuyên nghiệp và chương trình học hiện đại. Học viện Victoria đã giúp tôi thăng tiến trong sự nghiệp với kỹ năng giao tiếp tiếng Anh tốt hơn.",
     },
     {
       name: "Phạm Thị Ngọc Duyên",
-      role: "Software Engineer",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+      role: "",
       rating: 5,
       text: "Trải nghiệm tuyệt vời! Các bài học tương tác và giáo viên bản ngữ đã giúp việc học tiếng Anh trở nên thú vị và hiệu quả. Rất đáng để thử!",
     },
@@ -54,7 +46,7 @@ const TestimonialsCarousel = () => {
       <div className="container max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground">
-            Nhận xét của phụ huynh
+            Nhận xét của phụ huynh và học viên
           </h2>
         </div>
 
@@ -80,11 +72,15 @@ const TestimonialsCarousel = () => {
                     {/* Profile */}
                     <div className="flex items-center gap-4 mb-6">
                       <div className="relative">
-                        <img
-                          src={testimonial.image}
-                          alt={testimonial.name}
-                          className="w-16 h-16 rounded-full object-cover border-4 border-victoria-gold/30"
-                        />
+                        <div
+                          className="
+                            w-16 h-16 rounded-full border-4 border-victoria-gold/30
+                            bg-victoria-gold/10 flex items-center justify-center
+                            text-victoria-gold text-xl font-bold uppercase
+                          "
+                        >
+                          {testimonial.name?.charAt(0) ?? "?"}
+                        </div>
                         <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-victoria-gold rounded-full border-2 border-background" />
                       </div>
                       <div>

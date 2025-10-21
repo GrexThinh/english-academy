@@ -4,7 +4,7 @@
     "about": "Giới thiệu",
     "services": "Dịch vụ",
     "programs": "Chương trình học",
-    "events": "Sự kiện",
+    "events": "Hoạt động",
     "contact": "Liên hệ",
     "branches": "Hệ thống trung tâm"
   },
@@ -41,13 +41,13 @@
     "readMore": "Đọc Thêm"
   },
   "programs": {
-    "label": "Chương Trình Của Chúng Tôi",
+    "label": "Chương Trình Học",
     "title": "Chúng Tôi Cung Cấp Chương Trình Độc Quyền Cho Học Viên",
     "viewAll": "Xem Tất Cả Chương Trình"
   },
   "events": {
     "label": "Sự Kiện Của Chúng Tôi",
-    "title": "Sự Kiện Sắp Tới"
+    "title": "Hoạt Động Nổi Bật"
   },
   "blog": {
     "label": "Tin Tức & Blog Mới Nhất",

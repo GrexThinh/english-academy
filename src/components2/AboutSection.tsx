@@ -62,44 +62,46 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="py-20 bg-muted/30 relative">
-      <div className="absolute left-1/2 -translate-x-1/2 -top-15 w-[100%] md:w-[75%]">
-        <div
-          className="
+      <div className="max-w-7xl mx-auto mt-10">
+        <div className="w-full mt-[-200px] mb-20 mx-auto">
+          <div
+            className="
             rounded-tr-3xl
             rounded-bl-3xl
             rounded-tl-[50px]
             rounded-br-[50px]
             bg-victoria-red to-[#7a0c10]
-            text-[#d3b83f]
-            brightness-1.25
+            brightness-[1.1]
             shadow-[0_20px_60px_-15px_rgba(0,0,0,0.35)]
             ring-1 ring-white/10
             overflow-hidden
           "
-        >
-          <div className="px-5 py-4 md:px-8 md:py-5">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div className="flex items-start md:items-center gap-3 md:gap-4">
-                <span className="mt-1 inline-block h-2 w-2 rounded-full bg-victoria-gold md:mt-[6px]"></span>
-                <div>
-                  <h3 className="text-lg md:text-2xl font-bold leading-snug text-victoria-gold/95 drop-shadow-sm flex gap-3">
-                    <Sparkles />
-                    <div>Tầm nhìn – Sứ mệnh – Giá trị cốt lõi</div>
-                  </h3>
-                  <p className="text-sm md:text-base text-victoria-gold/80 leading-snug mt-1 max-w-xl">
-                    Victoria Academy hướng đến trở thành hệ thống giáo dục Việt
-                    Nam mang đẳng cấp quốc tế, đào tạo học sinh trở thành công
-                    dân tài năng và trách nhiệm.
-                  </p>
+          >
+            <div className="p-5 md:px-8 md:py-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div className="flex items-start md:items-center gap-3 md:gap-4">
+                  <span className="mt-1 inline-block h-2 w-2 rounded-full bg-victoria-gold md:mt-[6px]"></span>
+                  <div>
+                    <h3 className="text-lg md:text-2xl font-bold leading-snug text-victoria-gold/95 drop-shadow-sm flex gap-3 text-[#d3b83f]">
+                      <Sparkles />
+                      <div>Tầm nhìn – Sứ mệnh – Giá trị cốt lõi</div>
+                    </h3>
+                    <p className="text-sm md:text-base leading-snug text-white/80 mt-1 max-w-xl">
+                      Victoria Academy hướng đến trở thành hệ thống giáo dục
+                      Việt Nam mang đẳng cấp quốc tế, dẫn đầu trong giáo dục
+                      nghề và ngoại ngữ, mang theo sứ mệnh tương lai vững chắc
+                      và rực rỡ hơn, đào tạo học sinh trở thành công dân tài
+                      năng và trách nhiệm.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="hidden md:block h-12 w-px bg-white/20" />
+                <div className="hidden md:block h-12 w-px bg-white/20" />
 
-              <div className="flex flex-wrap items-center gap-3">
-                <button
-                  type="button"
-                  className="
+                <div className="flex flex-wrap items-center gap-3">
+                  <button
+                    type="button"
+                    className="
               inline-flex items-center gap-2
               rounded-full
               bg-gradient-to-r from-[#f9d84b] to-[#f6c700]
@@ -111,14 +113,14 @@ const AboutSection = () => {
               transition-all duration-200
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#f6c900d5]
             "
-                >
-                  Khám phá
-                  <Search />
-                </button>
+                  >
+                    Khám phá
+                    <Search />
+                  </button>
 
-                <button
-                  type="button"
-                  className="
+                  <button
+                    type="button"
+                    className="
               inline-flex items-center gap-2
               rounded-full
               border border-[#f6c700]
@@ -130,17 +132,16 @@ const AboutSection = () => {
               transition-all duration-200
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#f6c700]
             "
-                >
-                  Liên hệ ngay
-                  <Phone className="animate-ring" />
-                </button>
+                  >
+                    Liên hệ ngay
+                    <Phone className="animate-ring" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="max-w-7xl mx-auto mt-10">
         <Carousel
           opts={{
             align: "start",
