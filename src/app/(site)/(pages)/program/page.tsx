@@ -1,4 +1,4 @@
-import ProgramsSection from "@/components2/ProgramsSection";
+import ProgramsSection from "@/components/ProgramsSection";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {

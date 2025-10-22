@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Product } from "@/types/product";
 import { useModalContext } from "@/app/context/QuickViewModalContext";
 import { updateQuickView } from "@/redux/features/quickView-slice";
 import { addItemToCart } from "@/redux/features/cart-slice";
@@ -11,7 +10,7 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux/store";
 import Link from "next/link";
 
-const ProductItem = ({ item }: { item: Product }) => {
+const ProductItem = ({ item }: { item: any }) => {
   const { openModal } = useModalContext();
 
   const dispatch = useDispatch<AppDispatch>();

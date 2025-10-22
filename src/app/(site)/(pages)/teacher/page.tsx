@@ -1,4 +1,4 @@
-import TeamSection from "@/components2/TeamSection";
+import TeamSection from "@/components/TeamSection";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {

@@ -7,9 +7,9 @@ import vi from "./locales/vi.json";
 
 const getInitialLanguage = () => {
   if (typeof window !== "undefined") {
-    return localStorage.getItem("language") || "en";
+    return localStorage.getItem("language") || "vi";
   }
-  return "en";
+  return "vi";
 };
 
 i18n.use(initReactI18next).init({
@@ -18,7 +18,7 @@ i18n.use(initReactI18next).init({
     vi: { translation: vi },
   },
   lng: getInitialLanguage(),
-  fallbackLng: "en",
+  fallbackLng: "vi",
   react: {
     useSuspense: false,
   },

@@ -4,10 +4,11 @@ import "../css/style.css";
 import { Nunito } from "next/font/google";
 import { ReduxProvider } from "@/redux/provider";
 import ScrollToTop from "@/components/Common/ScrollToTop";
-import Header from "@/components2/Header";
+import Header from "@/components/Header";
 import { ThemeProvider } from "@/contexts/ThemeContext";
-import Footer from "@/components2/Footer";
+import Footer from "@/components/Footer";
 import { Metadata } from "next";
+import FloatingContacts from "@/components/float-contact";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -99,6 +100,7 @@ export default function RootLayout({
           </ThemeProvider>
           <ScrollToTop />
           <Footer />
+          <FloatingContacts />
         </>
       </body>
     </html>

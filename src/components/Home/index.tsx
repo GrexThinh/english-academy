@@ -1,12 +1,12 @@
 import React from "react";
-import HeroSection from "@/components2/HeroSection";
-import AboutSection from "@/components2/AboutSection";
-import ProgramsSection from "@/components2/ProgramsSection";
-import EventsSection from "@/components2/EventsSection";
-import TeamSection from "@/components2/TeamSection";
-import TestimonialsCarousel from "@/components2/TestimonialsCarousel";
-import ClassroomSection from "@/components2/ClassroomSection";
-import BranchSection from "@/components2/BranchSection";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import ProgramsSection from "@/components/ProgramsSection";
+import EventsSection from "@/components/EventsSection";
+import TeamSection from "@/components/TeamSection";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
+import ClassroomSection from "@/components/ClassroomSection";
+import BranchSection from "@/components/BranchSection";
 
 const Home = () => {
   return (
@@ -17,8 +17,8 @@ const Home = () => {
       <EventsSection />
       <TeamSection />
       <ClassroomSection />
-      <BranchSection />
       <TestimonialsCarousel />
+      <BranchSection />
     </main>
   );
 };

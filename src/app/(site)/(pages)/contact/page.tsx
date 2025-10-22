@@ -1,4 +1,4 @@
-import AboutSection from "@/components2/AboutSection";
+import AboutSection from "@/components/AboutSection";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {

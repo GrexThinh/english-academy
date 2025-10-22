@@ -1,4 +1,4 @@
-import EventsSection from "@/components2/EventsSection";
+import EventsSection from "@/components/EventsSection";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
